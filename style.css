@@ -10,14 +10,34 @@ li{
 ul{
     display: flex;
     justify-content: flex-end;
-    background-color: red;
     list-style: none;
 }
 
-h1{ 
+.container_parent{
+    background-color: #F0F0F0;
+}
+.container_card_text{
+    border: 1px solid red;
+}
+.card_evaluation_perfomance{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    background-color: white;
+    padding-left: 61px;
+    padding-right: 61px;
+    padding-bottom: 43px;
+    padding-top: 43px;
+    width: 697px;
+    height: 134px;
+}
+.evaluation_element{
+    border: red 1px solid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 20px;
-    color: Blue;
-    font-size: 3rem;
+    align-items: center;
+    gap: 27px;
+    height: 99px;
 }

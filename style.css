@@ -17,6 +17,8 @@ ul{
     background-color: #F0F0F0;
 }
 .container_card_text{
+    width: 1184px;
+    height: 572px;
     border: 1px solid red;
 }
 .card_evaluation_perfomance{
@@ -32,6 +34,11 @@ ul{
     width: 697px;
     height: 134px;
 }
+.container_card_titre{
+    width: 664px;
+    height: 429px;
+    border: red solid 1px;
+}
 .evaluation_element{
     border: red 1px solid;
     display: flex;
@@ -40,4 +47,7 @@ ul{
     align-items: center;
     gap: 27px;
     height: 99px;
+}
+.container_child_card{
+    display: flex;
 }

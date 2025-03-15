@@ -3,23 +3,77 @@
     padding: 0;
     box-sizing: border-box;
 }
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    margin-right: 325px;
+    margin-left: 325px;
+    padding: 10px;
+}
+.logo_class_parent{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    color: white;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #8910F3;
+    margin-right: 10px;
+}
+.btn-submit-cnt{
+    background-color: #8910F3;
+    border-radius: 2px;
+    color: white;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
 li{
     margin: 10px;
 }
 
 ul{
     display: flex;
-    justify-content: flex-end;
     list-style: none;
+    
 }
-
+h1{ font-family: 'Courier New', Courier, monospace;
+    font-size: 64px;
+}
+.container_card_titre p{
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.btn-submit{
+    background-color: #8910F3;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
 .container_parent{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
     background-color: #F0F0F0;
 }
 .container_card_text{
-    width: 1184px;
+    width: 700px;
     height: 572px;
-    border: 1px solid red;
+    margin-right: 50px;
 }
 .card_evaluation_perfomance{
     display: flex;
@@ -34,13 +88,23 @@ ul{
     width: 697px;
     height: 134px;
 }
+.card_evaluation_perfomance h2{
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+}
+.card_evaluation_perfomance p{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
 .container_card_titre{
+    margin-top: 50px;
     width: 664px;
-    height: 429px;
-    border: red solid 1px;
+    height: 360px;
+
 }
 .evaluation_element{
-    border: red 1px solid;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,4 +114,8 @@ ul{
 }
 .container_child_card{
     display: flex;
+}
+.container_profil_image img{
+    border-radius: 25px;
+
 }

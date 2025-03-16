@@ -190,3 +190,33 @@ h2{
     font-weight: bold;
     cursor: pointer;
 }
+
+.container_parent_third{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+.container_porfolio_titre{
+    width: 574px;
+}
+
+.container_parent_portfolio{
+    
+}
+
+.container_portfolio{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        max-width: 900px;
+        padding: 20px;
+}
+
+.container_portfolio img {
+    width: 30%; /* 3 images par ligne */
+    height: auto;
+    aspect-ratio: 1/1; /* Pour des images carrées */
+    object-fit: cover; /* Recadre l’image sans la déformer */
+    transition: transform 0.3s ease-in-out;
+}

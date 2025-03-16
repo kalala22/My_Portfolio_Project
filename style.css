@@ -47,6 +47,11 @@ ul{
 h1{ font-family: 'Courier New', Courier, monospace;
     font-size: 64px;
 }
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
 .container_card_titre p{
     font-size: 16px;
     font-family: 'Courier New', Courier, monospace;
@@ -63,7 +68,7 @@ h1{ font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
     cursor: pointer;
 }
-.container_parent{
+.container_parent_first{
     display: flex;
     height: 100vh;
     align-items: center;
@@ -112,10 +117,76 @@ h1{ font-family: 'Courier New', Courier, monospace;
     gap: 27px;
     height: 99px;
 }
-.container_child_card{
+.container_child_card_1{
     display: flex;
 }
 .container_profil_image img{
     border-radius: 25px;
+    width: 413px;;
+}
+.container_parent_second{
+    display: flex;
+    justify-content: center;
+    background-color: #F0F0F0;
+}
 
+.container_profil_image2 img{
+    border-radius: 25px;
+    width: 300px;
+}
+.container_child_card_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+    height: 572px;
+    width: 1184px;
+    border-radius: 15px;
+}
+.container_card_profil{
+    display: flex;
+}
+.container_card2_titre{
+    
+    width: 606px;
+    height: 265px;
+    position: relative;
+    left: 20px;
+    top: 70px
+}
+
+.container_card2_titre p{
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container_btn_profil{
+
+    margin-top: 20px;
+}
+
+.btn-submid_profil_card2{
+    background-color: #8910F3;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Inter" sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-submit_downl_card2{
+    border: #8910F3 solid 2px;
+    background-color: white;
+    border-radius: 5px;
+    color: #8910F3;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Inter" sans-serif;
+    font-weight: bold;
+    cursor: pointer;
 }
